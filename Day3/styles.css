@@ -1,0 +1,56 @@
+input {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+
+input[type="text"] {
+    border: none;
+    /* border-bottom: 2px solid rebeccapurple; */
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+}
+
+
+h1 {
+    color: brown;
+    font-size: 50px;
+}
+
+.l_through {
+    text-decoration: line-through;
+}
+
+h2 {
+    text-decoration: underline;
+    border: 2px red dashed;
+}
+
+.p1 {
+    text-align: right;
+}
+
+.p2 {
+    text-align: center;
+    /* border-radius: 5px; */
+    font-size: 150%;
+}
+
+.p3 {
+    /* font-weight: bold; */
+    font-weight: bolder;
+}
+
+.p3 span {
+    /* color: red; */
+    font-weight: inherit;
+}
+
+div {
+    background-image: url("img.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
