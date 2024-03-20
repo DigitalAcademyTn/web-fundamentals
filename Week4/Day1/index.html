@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick="alert('hello')">click me</button> -->
+<br>
+    <!-- <button onclick="example(this)">click me</button> -->
+
+    <button onclick="turnOff(this)">On</button>
+    <br>
+    <button onclick="changeColor(this)" style="width: 122px; height: 50px; background-color: blue;">Color</button>
+<br>
+    <img src="students.png" onclick="rem(this)">
+    <img src="students.png" onclick="rem(this)">
+    <img src="students.png" alt="student" onclick="rem(this)">
+    <img src="students.png" alt="student" onclick="rem(this)">
+
+</body>
+
+<script>
+    // function example(element) {
+    //     console.log(element);
+    // }
+    
+     function turnOff(element) {
+        // element.innerText = "Off";
+        // console.log(element.innerText);
+        if(element.innerText == "On"){
+            element.innerText = "Off";
+        } else {
+            element.innerText = "On";
+        }
+     }
+
+     function changeColor(e) {
+        e.style.backgroundColor = "red";
+        
+     }
+
+     function rem(e) {
+        e.remove();
+     }
+
+
+
+</script>
+</html>
